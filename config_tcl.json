@@ -1,0 +1,22 @@
+{
+	"_comment": {
+		"ssl_uri": "websocket uri криптоприржи bitfinex",
+		"to_url": "url куда отправлять инфу",
+		"login": "Basic access authentication логин",
+		"pass": "Basic access authentication пароль"
+	},
+	"ssl_uri": "wss://api.bitfinex.com/ws",
+	"to_url": "",
+	"login": "",
+	"pass": "",
+
+	"_comment": {
+		"pairs": "торговые пары, которые будут пересылаться клиенту. https://api.bitfinex.com/v1/symbols - список всех доступных торговых пар для www.bitfinex.com"
+	},
+	"pairs": ["btcusd","ltcusd","ltcbtc","ethusd","ethbtc"],
+
+	"_comment": {
+		"price_type": "тип цены: BID - предлагаемая цена, ASK - запрашиваемая цена, LAST_PRICE - цена последней сделки."
+	},
+	"price_type": "BID"
+}
