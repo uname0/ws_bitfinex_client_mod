@@ -11,13 +11,13 @@
 ### Installation
 	$ git clone https://github.com/uname0/ws_bitfinex_client_mod.git
 	$ cd ws_bitfinex_client_mod
-	$ pip install -r requirements.txt
-	$ chmod +x client.py
+	$ sudo pip3.6 install -r requirements.txt
+	$ chmod +x tcl.py
 
-	отредактировать конфиг. добавить адресс(to_url), логин(login) и пас(pass) для авторизации на сервере.
-	также добавить торговую пару(pair), которая будет пересылаться клиенту и тип цены(price_type).
+	отредактировать конфиг в файле config_tcl.json. добавить адресс(to_url), логин(login) и пас(pass) для авторизации на сервере.
+	также добавить торговые пары(pair), которые будут пересылаться клиенту и тип цены(price_type).
 
-	$ ./client.py
+	$ ./tcl.py
 
 
 
